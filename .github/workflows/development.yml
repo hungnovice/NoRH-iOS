@@ -30,6 +30,9 @@ jobs:
           echo "after"
           ls -lah ./
           
+      - name: Install include tools
+        run: brew install make ldid temurin@8
+
       - name: Checkout repository
         uses: actions/checkout@main
 
