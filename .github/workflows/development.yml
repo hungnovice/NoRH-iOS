@@ -29,12 +29,9 @@ jobs:
           rm -rf ./.??* || true
           echo "after"
           ls -lah ./
-          
+
       - name: Install include tools
         run: brew install make ldid temurin@8
-
-      - name: Checkout repository
-        uses: actions/checkout@main
 
       - name: Checkout repository submodules
         run: git submodule update --init --recursive
