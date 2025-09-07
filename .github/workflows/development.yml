@@ -34,7 +34,7 @@ jobs:
         run: brew install make ldid temurin@8
 
       - name: Checkout repository
-        uses: actions/checkout@renderer/norh
+        uses: actions/checkout@renderer/mobileglues
 
       - name: Checkout repository submodules
         run: git submodule update --init --recursive
