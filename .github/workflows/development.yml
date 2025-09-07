@@ -123,5 +123,5 @@ jobs:
         uses: actions/upload-artifact@main
         if: matrix.platform_name == 'ios'
         with:
-          name: AngelAuraAmethyst.dSYM
-          path: artifacts/AngelAuraAmethyst.dSYM
+          name: NoRHLauncher.dSYM
+          path: artifacts/NoRHLauncher.dSYM
